@@ -5,12 +5,12 @@ const IS_READY = 'photoReducer/IS-READY';
 
 const InitialState = {
     PhotoContainer: [
-    {id:1, folder: "foods", photos: [{alt:"1", photo: "/photos/1.jpg"}, {alt:"2", photo: "/photos/2.webp"}, {alt:"3", photo: "/photos/3.jpg"},{alt:"4", photo: "/photos/4.webp"}]},
-    {id:2, folder: "beauty", photos: [{alt:"5", photo: "/photos/5.jpg"}, {alt:"6", photo: "/photos/6.jpg"}, {alt:"7",  photo: "/photos/7.jpg"}, {alt:"8", photo: "/photos/8.webp"}]},
-    {id:3, folder: "portrait", photos: [{alt:"9", photo: "/photos/9.jpg"}, {alt:"10", photo: "/photos/2.webp"}, {alt:"11", photo: "/photos/3.jpg"},{ alt:"12", photo: "/photos/4.webp"}]},
-    {id:5, folder: "foods", photos: [{alt:"13", photo: "/photos/1.jpg"}, {alt:"14", photo: "/photos/2.webp"}, {alt:"15", photo: "/photos/3.jpg"},{alt:"16", photo: "/photos/4.webp"}]},
-    {id:6, folder: "beauty", photos: [{alt:"17", photo: "/photos/5.jpg"}, {alt:"18", photo: "/photos/6.jpg"}, {alt:"19",  photo: "/photos/7.jpg"}, {alt:"20", photo: "/photos/8.webp"}]},
-    {id:7, folder: "portrait", photos: [{alt:"21", photo: "/photos/9.jpg"}, {alt:"22", photo: "/photos/2.webp"}, {alt:"23", photo: "/photos/3.jpg"},{ alt:"24", photo: "/photos/4.webp"}]}
+    {id:1, folder: "foods", photos: [{alt:"1", photo: process.env.PUBLIC_URL + "/images/1.jpg"}, {alt:"2", photo: process.env.PUBLIC_URL +  "/images/2.webp"}, {alt:"3", photo: process.env.PUBLIC_URL +  "/images/3.jpg"},{alt:"4", photo:process.env.PUBLIC_URL +  "/images/4.webp"}]},
+    {id:2, folder: "beauty", photos: [{alt:"5", photo: process.env.PUBLIC_URL + "/images/5.jpg"}, {alt:"6", photo: process.env.PUBLIC_URL +  "/images/6.jpg"}, {alt:"7",  photo: process.env.PUBLIC_URL + "/images/7.jpg"}, {alt:"8", photo: process.env.PUBLIC_URL + "/images/8.webp"}]},
+    {id:3, folder: "portrait", photos: [{alt:"9", photo: process.env.PUBLIC_URL + "/images/9.jpg"}, {alt:"10", photo: process.env.PUBLIC_URL +  "/images/2.webp"}, {alt:"11", photo: process.env.PUBLIC_URL + "/images/3.jpg"},{ alt:"12", photo:process.env.PUBLIC_URL +  "/images/4.webp"}]},
+    {id:5, folder: "foods", photos: [{alt:"13", photo: process.env.PUBLIC_URL +  "/images/1.jpg"}, {alt:"14", photo: process.env.PUBLIC_URL +  "/images/2.webp"}, {alt:"15", photo: process.env.PUBLIC_URL + "/images/3.jpg"},{alt:"16", photo: process.env.PUBLIC_URL +  "/images/4.webp"}]},
+    {id:6, folder: "beauty", photos: [{alt:"17", photo: process.env.PUBLIC_URL +  "/images/5.jpg"}, {alt:"18", photo: process.env.PUBLIC_URL +  "/images/6.jpg"}, {alt:"19",  photo: process.env.PUBLIC_URL + "/images/7.jpg"}, {alt:"20", photo: process.env.PUBLIC_URL +  "/images/8.webp"}]},
+    {id:7, folder: "portrait", photos: [{alt:"21", photo: process.env.PUBLIC_URL +  "/images/9.jpg"}, {alt:"22", photo: process.env.PUBLIC_URL + "/images/2.webp"}, {alt:"23", photo: process.env.PUBLIC_URL + "/images/3.jpg"},{ alt:"24", photo: process.env.PUBLIC_URL +  "/images/4.webp"}]}
 ],
  photoArray: [],
  mainPhotoArray: [],

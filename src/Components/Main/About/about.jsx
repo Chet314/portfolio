@@ -11,7 +11,7 @@ const About = () => {
                 Her portraits, still-lifes and editorial work (in both menswear and womenswear) apply the principles of pure photography,
                 using simply light and shade.Made with love, inspired by nature.
             </p>
-            <img src="./photos/2.webp" alt = "myPhpoto" />
+            <img src={process.env.PUBLIC_URL + "/images/2.webp"} alt = "myPhpoto" />
         </div>
     );
 };

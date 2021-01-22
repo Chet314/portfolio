@@ -1,5 +1,3 @@
-import { createSelectorHook } from 'react-redux';
-import { createStore } from 'redux';
 import {createSelector} from 'reselect';
 
 const getPhotoArray = (state) => {
