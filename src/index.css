@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Yusei Magic';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#F5F7FA;
+  color: #78797A;
+}
+h1{
+  font-size: 18px;
+}
+img{
+  max-width: 100%;
+}
+
+a{
+  color:#78797A;
+  text-decoration: none;
+}
+
+#root{
+  display: grid;
+  grid-template-columns: 100px 90%;
+  grid-template-areas: "nav main";
+  width: 100vw;
+  grid-gap: 1rem;
+}
+
+nav{
+  grid-area: nav;
+  margin-left: 5px;
+ 
+}
+
+main{
+  grid-area: main;
+}
+

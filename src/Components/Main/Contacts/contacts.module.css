@@ -1,0 +1,7 @@
+.wrapper{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
+}
