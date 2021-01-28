@@ -1,25 +1,37 @@
 .wrapper{
     display: grid;
     grid-template-columns: 30% 30%;
-    grid-gap: 3rem;
+    grid-column-gap:170px;
+    grid-row-gap: 3rem;
     justify-content: center;
- 
+    margin-top: 5rem;
 }
 
-.tank{
+p{
+    margin:0;
+    padding: 0;
+}
+
+.left{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    justify-self: end;
+    align-self: end;
 }
 
-.tank a:hover {
-   opacity: 0.6;
-   transition:all 1s ease 0s;
+.right{
+    display: flex;
+    justify-self: start;
+    align-self: end;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wrapper{
+        margin-top: 2rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .wrapper{
+    .wrapper{  
         grid-template-columns: 40%;
     }
     

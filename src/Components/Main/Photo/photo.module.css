@@ -1,11 +1,19 @@
 .wrapper{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 1rem;
+    grid-template-columns: 25% 40% ;
+    grid-gap: 3rem;
     align-items: center;
     justify-content: center;
+    align-content: center;
     margin: 20px;
 }
+
+.tank{
+    display: flex;
+    align-self: end;
+    justify-self: end;
+}
+
 @media only screen and (max-width: 600px) {
     .wrapper{
         grid-template-columns: 40%;
